@@ -88,7 +88,7 @@ const Homepage = () => {
                 return <div key={product?.id} onClick={() => {
                   router.push(`/${product.id}`)
                 }} className='rounded-md hover:shadow-md cursor-pointer hover:scale-105 transition p-4 border flex justify-between relative flex-col'>
-                  <Image alt={product.title} height={90} width={60} className='w-full' src={product.image} />
+                  <Image alt={product.title} height={500} width={300} className='w-full' src={product.image} />
                   <div>
                     <p className='text-sm mt-2 truncate'>
                       {product.title}
